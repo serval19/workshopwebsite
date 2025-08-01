@@ -17,8 +17,8 @@ const App = () => {
         
       </nav>
       <div className='flex flex-row'>
-        <div className='ml-10 mt-10'><img src={workshopfullpic} alt="fullpic" className='w-[700px] h-[525px] rounded-2xl' /></div>
-        <div>workshop description</div>
+        <div className='ml-10 mt-10'><img src={workshopfullpic} alt="fullpic" className='w-[700px] h-[525px] rounded-2xl border-black border-2' /></div>
+        <div className='ml-10 mt-10 text-2xl'>workshop description diwan automobiles</div>
       </div>
 
     </div>
