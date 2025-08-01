@@ -1,5 +1,6 @@
 import React from 'react'
 import homepic from './assets/homepic.jpg'
+import workshopfullpic from './assets/workshopfullpic.jpg'
 
 const App = () => {
   return (
@@ -15,6 +16,9 @@ const App = () => {
         </div>
         
       </nav>
+      <div className='flex flex-row'>
+        <div><img src={workshopfullpic} alt="fullpic" /></div>
+      </div>
 
     </div>
   )
