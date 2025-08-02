@@ -1,6 +1,7 @@
 import React from 'react'
 import homepic from './assets/homepic.jpg'
 import workshopfullpic from './assets/workshopfullpic.jpeg'
+import { motion } from 'framer-motion'
 
 const App = () => {
   return (
@@ -19,13 +20,26 @@ const App = () => {
       <div className='flex flex-row'>
         <div className='ml-10 mt-10'><img src={workshopfullpic} alt="fullpic" className='w-[700px] h-[525px] rounded-2xl border-black border-2' /></div>
         <div className='ml-10 mt-10 text-2xl max-w-[600px] mr-5'>
-          <h1 className='mb-5 text-center text-blue-800 font-bold text-5xl'>DiWAN AUTOMOBILES</h1>
-          <p>
-            workshop description diwan automobiles.
+         
+          <motion.h1
+          className="mb-5 text-center text-blue-800 font-bold text-5xl" // Add your Tailwind classes here
+          initial={{ y: 25, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1, ease: "easeInOut" }}
+        >
+        DiWAN AUTOMOBILES
+         </motion.h1>
+          <motion.p
+          className="text-2xl" // Example Tailwind classes for a paragraph
+          initial={{ y: 25, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 2, ease: "easeInOut" }}
+          >
+           workshop description diwan automobiles.
           hello hi diwan automobiles is located in near kappadu in anakkal. It does all types of
           trucks and other works including body works, painting, oil change,
           body repair etc. the owner has 25 years of experience in the gulf.
-          </p>
+          </motion.p>
           
         
         </div>
