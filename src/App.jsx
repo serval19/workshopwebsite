@@ -18,7 +18,17 @@ const App = () => {
       </nav>
       <div className='flex flex-row'>
         <div className='ml-10 mt-10'><img src={workshopfullpic} alt="fullpic" className='w-[700px] h-[525px] rounded-2xl border-black border-2' /></div>
-        <div className='ml-10 mt-10 text-2xl'>workshop description diwan automobiles</div>
+        <div className='ml-10 mt-10 text-2xl max-w-[600px] mr-5'>
+          <h1 className='mb-5 text-center text-blue-800 font-bold text-5xl'>DiWAN AUTOMOBILES</h1>
+          <p>
+            workshop description diwan automobiles.
+          hello hi diwan automobiles is located in near kappadu in anakkal. It does all types of
+          trucks and other works including body works, painting, oil change,
+          body repair etc. the owner has 25 years of experience in the gulf.
+          </p>
+          
+        
+        </div>
       </div>
 
     </div>
