@@ -47,14 +47,14 @@ const App = () => {
       
       <div className='mt-15'>
         <motion.h2
-          className="mb-5 text-center text-blue-800 font-bold text-5xl" // Add your Tailwind classes here
+          className=" text-center text-blue-800 font-bold text-5xl" // Add your Tailwind classes here
           initial={{ y: 25, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, ease: "easeInOut" }}
         >
         Our Works :
          </motion.h2>
-         <div className='max-w-[1000px] mx-auto'>
+         <div className='max-w-[1000px] mx-auto mt-0'>
           <Slideshow />
          </div>
         
