@@ -17,7 +17,7 @@ const App = () => {
         </div>
         
       </nav>
-      <div className='flex flex-row'>
+      <div className='flex flex-row mb-30'>
         <div className='ml-10 mt-10'><img src={workshopfullpic} alt="fullpic" className='w-[700px] h-[525px] rounded-2xl border-black border-2' /></div>
         <div className='ml-10 mt-10 text-2xl max-w-[600px] mr-5'>
          
@@ -48,15 +48,19 @@ const App = () => {
       <div className='mt-15'>
         <motion.h2
           className=" text-center text-blue-800 font-bold text-5xl" // Add your Tailwind classes here
-          initial={{ y: 25, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 1, ease: "easeInOut" }}
+          initial={{opacity:0 , translateX: "-100%"}}
+         whileInView={{opacity:1, translateX: 0}}
+         transition={{duration: 2}}
         >
         Our Works :
          </motion.h2>
-         <div className='max-w-[1000px] mx-auto mt-0'>
+         <motion.div 
+         initial={{opacity:0 , translateX: "-100%"}}
+         whileInView={{opacity:1, translateX: 0}}
+         transition={{duration: 2}}
+         className='max-w-[1000px] mx-auto mt-0'>
           <Slideshow />
-         </div>
+         </motion.div>
         
       </div>
     </div>
