@@ -136,7 +136,7 @@ const App = () => {
           transition={{duration: 2}}
           className="text-center text-lg md:text-xl mt-5 mb-10" // Responsive font size
         >
-          Phone :   7025034342, 8647509422
+          Phone :   7025034342
           <br />
           Email : diwanautomobileskappadu@gmail.com
         </motion.div>
