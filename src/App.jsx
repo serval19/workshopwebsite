@@ -49,7 +49,7 @@ const App = () => {
 
       {/* --- RESPONSIVE ABOUT SECTION --- */}
       {/* Stacks vertically on mobile (flex-col), row on medium screens and up (md:flex-row) */}
-      <div className='flex flex-col md:flex-row p-4 md:p-10 gap-8 items-center'>
+      <div className='flex flex-col md:flex-row p-4 mb-15 md:p-10 gap-8 items-center'>
         {/* Image takes full width on mobile, half on desktop */}
         <div className='w-full md:w-1/2'>
           <img src={workshopfullpic} alt="fullpic" className='w-full h-auto rounded-2xl border-black border-2' />
@@ -112,10 +112,9 @@ const App = () => {
         </motion.div>
         <div className='mt-4 flex justify-center'>
             {/* Iframe is now responsive, taking full width with a max-width for desktop */}
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3933.2081534341957!2d76.81179787489568!3d9.66442689041285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b063555543666d9%3A0x6739031e42a98f71!2sDiwan%20Automobiles!5e0!3m2!1sen!2sin!4v1722945484501!5m2!1sen!2sin" 
-              className='border-black border-2 rounded-2xl w-full max-w-[1000px] h-[300px] md:h-[550px]' // Responsive width and height
-              allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3933.972266742494!2d76.77762847443202!3d9.597656290488146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b063575e79e1ed5%3A0xcd7b288cd2dab4a!2sDiWAN%20Automobiles!5e0!3m2!1sen!2sin!4v1754477270771!5m2!1sen!2sin" 
+            className='border-black border-2 rounded-2xl w-full max-w-[1000px] h-[300px] md:h-[550px]' allowFullscreen loading="lazy" referrerPolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
       </div>
