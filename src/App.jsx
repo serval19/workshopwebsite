@@ -73,7 +73,7 @@ const App = () => {
             transition={{ duration: 2, ease: "easeInOut" }}
           >
             At Diwan Automobiles, we keep your heavy machinery moving. 
-            We are specialists in the complete service and repair of trucks, lorries, travellers, JCB, tractor etc. From expert painting and routine oil changes to ensuring your vehicles pass RTO fitness inspections, our skilled team handles it all. We minimize your downtime so you can maximize your business. Drive in with confidence, drive out with reliability.
+            We are specialists in the complete service and repair of trucks, lorries, travellers, JCB, tractor etc. We minimize your downtime so you can maximize your business. Drive in with confidence, drive out with reliability.
             <br/><br/>
             The workshop is located in 3rd Mile Kappadu on the Kanjirappally-Erattupetta Road (State Highway). Its roadside location makes it easily accessible for all types of heavy vehicles.
           </motion.p>
