@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div >
       <nav className='bg-blue-800 pt-4 pb-4 max-h-30 flex items-center flex-row justify-between'>
-        <div><a href=''><img src={homepic} className='ml-5' alt="homebutton" /></a></div>
+        <div><a href='#about'><img src={homepic} className='ml-5' alt="homebutton" /></a></div>
         <div className='flex flex-row justify-end gap-10 mt-0'>
           
           <a href="#about" className='transition-all duration-150 ease-in-out text-white text-2xl hover:bg-white hover:rounded-xl hover:text-black px-3 py-2'>About    </a>
@@ -35,10 +35,11 @@ const App = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 2, ease: "easeInOut" }}
           >
-           workshop description diwan automobiles.
-          hello hi diwan automobiles is located in near kappadu in anakkal. It does all types of
-          trucks and other works including body works, painting, oil change,
-          body repair etc. the owner has 25 years of experience in the gulf.
+           At Diwan Automobiles, we keep your heavy machinery moving. 
+           We are specialists in the complete service and repair of trucks, lorries, travellers, JCB, tractor etc. From expert painting and routine oil changes to ensuring your vehicles pass RTO fitness inspections, our skilled team handles it all. We minimize your downtime so you can maximize your business. Drive in with confidence, drive out with reliability.
+           <br/>
+           The workshop is located in 3rd Mile Kappadu in the Kanjirappally Erattupetta Road which is a state highway
+           and since it is also located in the roadside, it is easily accessible for all types of heavy vehicles.
           </motion.p>
           
         
