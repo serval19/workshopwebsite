@@ -72,9 +72,9 @@ const App = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 2, ease: "easeInOut" }}
           >
-            At Diwan Automobiles, we keep your heavy machinery moving. 
-            We are specialists in the complete service and repair of trucks, lorries, travellers, JCB, tractor etc. We minimize your downtime so you can maximize your business. Drive in with confidence, drive out with reliability.
-            <br/><br/>
+            At DiWAN Automobiles, We maintain  your Heavy  Equipment and Commercial Vehicle moving with out any failure .   We are Specialists in Commercial Vehicle - RTO Fitness Testing works. Our Policy is bring your Unfitted Commercial Vehicle and Take to RTO Office for Fitness test. 
+ Also we experts in   Body and Patch Works ,Mechanical Repair , Auto Electrical Works , Body - Fiber Works, Seat Upholstery Works, Painting , etc  for  Tipper , Torus, Trucks, Flat beds, Lorry’s , Tempo Traveller, Pick Ups  JCB, Tractor , Hitachi , etc. We minimize your downtime so you can maximize your business. Drive in with confidence and  Reliability
+            <br/>
             The workshop is located in 3rd Mile Kappadu on the Kanjirappally-Erattupetta Road (State Highway). Its roadside location makes it easily accessible for all types of heavy vehicles.
           </motion.p>
         </div>
