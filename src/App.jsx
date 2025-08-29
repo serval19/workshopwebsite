@@ -155,8 +155,8 @@ We are Specialists in Commercial Vehicle - RTO Fitness Testing Work. Our Policy 
           className="text-center text-lg md:text-xl mt-0 mb-10 " // Responsive font size
         >
           <div className='flex justify-center gap-4 mt-0'>
-            <a href="#" className='flex items-center justify-center'><FaWhatsapp className='text-3xl'/></a>
-            <a href="https://www.facebook.com/diwan.automobiles" className='flex items-center justify-center'><FaFacebook className='text-3xl'/></a>
+            <a href="#" className='flex items-center justify-center'><FaWhatsapp className='text-4xl'/></a>
+            <a href="https://www.facebook.com/diwan.automobiles" className='flex items-center justify-center'><FaFacebook className='text-4xl'/></a>
           </div>
           
           
