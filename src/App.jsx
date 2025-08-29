@@ -3,6 +3,8 @@ import homepic from './assets/homepic.jpg';
 import workshopfullpic from './assets/workshopfullpic.jpeg';
 import { motion } from 'framer-motion';
 import Slideshow from './components/Slideshow.jsx';
+import { FaWhatsapp } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 const App = () => {
   // State to manage the mobile menu visibility
@@ -141,10 +143,25 @@ We are Specialists in Commercial Vehicle - RTO Fitness Testing Work. Our Policy 
           transition={{duration: 2}}
           className="text-center text-lg md:text-xl mt-5 mb-10" // Responsive font size
         >
+         
           Phone :   7025034342
           <br />
           Email : diwanautomobileskappadu@gmail.com
         </motion.div>
+        <motion.div 
+          initial={{opacity:0, rotateX: "90deg"}}
+          whileInView={{opacity:1, rotateX:0}}
+          transition={{duration: 2}}
+          className="text-center text-lg md:text-xl mt-0 mb-10 " // Responsive font size
+        >
+          <div className='flex justify-center gap-4 mt-0'>
+            <a href="#" className='flex items-center justify-center'><FaWhatsapp className='text-3xl'/></a>
+            <a href="https://www.facebook.com/diwan.automobiles" className='flex items-center justify-center'><FaFacebook className='text-3xl'/></a>
+          </div>
+          
+          
+        </motion.div>
+        
       </div>
     </div>
   )
